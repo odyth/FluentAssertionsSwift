@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7445FD7215039B800238517 /* FluentFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7445FD6215039B800238517 /* FluentFloatExtensions.swift */; };
+		F7445FD9215039D100238517 /* FluentDoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7445FD8215039D100238517 /* FluentDoubleExtensions.swift */; };
 		F77FAAB9209B8ACE004248AF /* FluentAssertions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77FAAAF209B8ACE004248AF /* FluentAssertions.framework */; };
 		F77FAABE209B8ACE004248AF /* FluentAssertionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FAABD209B8ACE004248AF /* FluentAssertionsTests.swift */; };
 		F77FAAC0209B8ACE004248AF /* FluentAssertions.h in Headers */ = {isa = PBXBuildFile; fileRef = F77FAAB2209B8ACE004248AF /* FluentAssertions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7445FD6215039B800238517 /* FluentFloatExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluentFloatExtensions.swift; sourceTree = "<group>"; };
+		F7445FD8215039D100238517 /* FluentDoubleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluentDoubleExtensions.swift; sourceTree = "<group>"; };
 		F77FAAAF209B8ACE004248AF /* FluentAssertions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FluentAssertions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77FAAB2209B8ACE004248AF /* FluentAssertions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FluentAssertions.h; sourceTree = "<group>"; };
 		F77FAAB3209B8ACE004248AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +103,9 @@
 				F77FAAD1209B8C26004248AF /* FluentCollectionExtensions.swift */,
 				F77FAACE209B8C26004248AF /* FluentComparableExtensions.swift */,
 				F77FAAD2209B8C26004248AF /* FluentDateExtensions.swift */,
+				F7445FD8215039D100238517 /* FluentDoubleExtensions.swift */,
 				F77FAACF209B8C26004248AF /* FluentEquatableExtensions.swift */,
+				F7445FD6215039B800238517 /* FluentFloatExtensions.swift */,
 				F77FAACD209B8C26004248AF /* FluentOptionalExtensions.swift */,
 				F77FAACA209B8C26004248AF /* FluentSequenceExtensions.swift */,
 				F77FAACB209B8C26004248AF /* FluentStringExtensions.swift */,
@@ -239,7 +245,9 @@
 				F77FAADA209B8C27004248AF /* FluentCollectionExtensions.swift in Sources */,
 				F77FAAD6209B8C27004248AF /* FluentOptionalExtensions.swift in Sources */,
 				F77FAAD9209B8C27004248AF /* FluentBoolExtensions.swift in Sources */,
+				F7445FD7215039B800238517 /* FluentFloatExtensions.swift in Sources */,
 				F77FAAD4209B8C27004248AF /* FluentStringExtensions.swift in Sources */,
+				F7445FD9215039D100238517 /* FluentDoubleExtensions.swift in Sources */,
 				F77FAAD8209B8C27004248AF /* FluentEquatableExtensions.swift in Sources */,
 				F77FAADB209B8C27004248AF /* FluentDateExtensions.swift in Sources */,
 				F77FAAD3209B8C27004248AF /* FluentSequenceExtensions.swift in Sources */,
