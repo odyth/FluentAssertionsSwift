@@ -10,12 +10,12 @@ import XCTest
 
 public extension String
 {
-    public func shouldContain(_ string: String, file: StaticString = #file, line: UInt = #line)
+    func shouldContain(_ string: String, file: StaticString = #file, line: UInt = #line)
     {
         XCTAssertTrue(self.contains(string), "Expected \(self) to contain \(string)", file:file, line:line)
     }
     
-    public func shouldNotContain(_ string: String, file: StaticString = #file, line: UInt = #line)
+    func shouldNotContain(_ string: String, file: StaticString = #file, line: UInt = #line)
     {
         XCTAssertFalse(self.contains(string), "Expected \(self) to not contain \(string)", file:file, line:line)
     }
@@ -23,7 +23,7 @@ public extension String
 
 public extension Optional where Wrapped == String
 {
-    public func shouldContain(_ string: String?, file: StaticString = #file, line: UInt = #line)
+    func shouldContain(_ string: String?, file: StaticString = #file, line: UInt = #line)
     {
         if self != nil && string != nil
         {
@@ -35,7 +35,7 @@ public extension Optional where Wrapped == String
         }
     }
     
-    public func shouldNotContain(_ string: String?, file: StaticString = #file, line: UInt = #line)
+    func shouldNotContain(_ string: String?, file: StaticString = #file, line: UInt = #line)
     {
         if self != nil && string != nil
         {
