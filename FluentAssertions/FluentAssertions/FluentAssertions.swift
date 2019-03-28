@@ -10,12 +10,12 @@ import XCTest
 
 public func shouldBeNil(_ expression: @autoclosure () throws -> Any?, file: StaticString = #file, line: UInt = #line)
 {
-    XCTAssertNil(expression, "Expected to find nil", file:file, line:line)
+    XCTAssertNil(try expression(), "Expected to find nil", file:file, line:line)
 }
 
 public func shouldNotBeNil(_ expression: @autoclosure () throws -> Any?, file: StaticString = #file, line: UInt = #line)
 {
-    XCTAssertNotNil(expression, "Expected not to find nil", file:file, line:line)
+    XCTAssertNotNil(try expression(), "Expected not to find nil", file:file, line:line)
 }
 
 public func invoking(file: StaticString = #file, line: UInt = #line, _ expression:@escaping () throws -> Void) -> Action
