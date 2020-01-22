@@ -8,7 +8,7 @@
 
 import XCTest
 
-extension Optional
+public extension Optional
 {
     func shouldBeNil(file: StaticString = #file, line: UInt = #line)
     {
